@@ -1109,6 +1109,7 @@ public final class ProcessBuilder
                                      dir,
                                      redirects,
                                      redirectErrorStream);
+
         } catch (IOException | IllegalArgumentException e) {
             String exceptionInfo = ": " + e.getMessage();
             Throwable cause = e;
